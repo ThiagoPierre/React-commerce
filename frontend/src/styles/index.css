@@ -1,0 +1,45 @@
+.card__product{
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 30px;
+}
+
+.card{
+    border:0 !important;
+    border-radius: 0%!important;
+    background-color: rgb(246, 245, 243)!important;
+}
+
+.icons{
+    margin:5px;
+    height: 1.75em;
+    width: 1.75em;
+}
+
+.full{
+    color: purple!important;
+    height: 1.5em!important;
+    width: 1.5em!important;
+}
+
+.blank{
+    color:black!important;
+    height: 1.5em!important;
+    width: 1.5em!important;
+}
+
+.icon-button {
+    border: 0;
+    background-color: rgb(246, 245, 243)
+
+}
+
+.blank:hover{
+    background-color: lightgrey;
+    border-radius: 2px;
+}
+
+.full:hover{
+    background-color: lightgrey;
+    border-radius: 2px;
+}
