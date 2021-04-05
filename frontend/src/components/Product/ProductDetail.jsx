@@ -5,7 +5,7 @@ import { Row, Col } from 'react-bootstrap';
 export default function ProductDetail({
   name, description, images = [], price,
 }) {
-  const defaultImage = images.find((image) => image.isDefault)?.url;
+  const defaultImage = images.find((image) => image.isDefault).url;
 
   return (
     <Row>
